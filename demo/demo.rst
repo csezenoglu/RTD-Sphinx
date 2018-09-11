@@ -276,6 +276,8 @@ Here's a reference to the above, [12]_, and a [nonexistent]_ citation.
 
 Here is another type of citation: `citation`
 
+.. Attention:: Bibtex citation extension will be used rather than default citation. For detailed information about extension: `sphinxcontrib-bibtex <https://sphinxcontrib-bibtex.readthedocs.io/>`__  
+
 Glossary
 --------
 
