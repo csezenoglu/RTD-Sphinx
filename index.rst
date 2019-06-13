@@ -5,4 +5,5 @@ Read the Docs and Sphinx
    :caption: Sphinx Directives
    :maxdepth: 2
 
-   highlight
+   directives/highlight
+   directives/rst-directives
