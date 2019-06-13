@@ -1,28 +1,8 @@
-.. include:: ../README.rst
+Read the Docs and Sphinx
+************************
 
 .. toctree::
-   :caption: Theme Documentation
+   :caption: Sphinx Directives
    :maxdepth: 2
 
-   installing
-   configuring
-   changelog
-   contributing
-
-
-.. toctree::
-    :maxdepth: 2
-    :numbered:
-    :caption: Demo Documents
-
-    demo/structure
-    demo/demo
-    demo/lists_tables
-    demo/api
-
-.. toctree::
-    :maxdepth: 3
-    :numbered:
-    :caption: This is an incredibly long caption for a long menu
-
-    demo/long
+   highlight

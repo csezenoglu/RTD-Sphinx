@@ -5,14 +5,13 @@ import os
 import re
 
 sys.path.append(os.path.abspath('..'))
-sys.path.append(os.path.abspath('./demo/'))
 
 from sphinx.locale import _
 
 from sphinx_rtd_theme import __version__
 
 
-project = u'Read the Docs Sphinx Theme'
+project = u'Read the Docs and Sphinx'
 slug = re.sub(r'\W+', '-', project.lower())
 version = __version__
 release = __version__
@@ -25,12 +24,12 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
-    'sphinxcontrib.httpdomain',
 ]
 
 templates_path = ['_templates']
 source_suffix = '.rst'
-exclude_patterns = []
+exclude_patterns = ['_build']
+
 
 master_doc = 'index'
 suppress_warnings = ['image.nonlocal_uri']
@@ -46,7 +45,6 @@ html_theme_options = {
     'logo_only': True
 }
 html_theme_path = ["../.."]
-html_logo = "demo/static/logo-wordmark-light.svg"
 html_show_sourcelink = True
 
 htmlhelp_basename = slug
